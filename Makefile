@@ -97,6 +97,9 @@ endif
 #------------------------------------------------------------------------------------------------
 PROJECT_SOURCE_FILES ?= \
     src/main.c \
+    src/cameraMovement.c \
+    src/placement.c \
+    src/object.c \
 
 # Define all object files from source files
 OBJS = $(patsubst %.c, %.o, $(PROJECT_SOURCE_FILES))
